@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/brownbtn.xml" value="0.184" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/corner_top_image.xml" value="0.184" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/login_background.xml" value="0.184" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/picture_intro.xml" value="0.183" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/picture_shape_intro.xml" value="0.1" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/plain_text_input_login.xml" value="0.184" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/sign_in_button.xml" value="0.184" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_intro.xml" value="0.22" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_register.xml" value="0.14666666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
