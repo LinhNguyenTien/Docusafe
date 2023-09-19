@@ -50,71 +50,24 @@
             android:id="@+id/otp"
             android:layout_width="250dp"
             android:layout_height="48dp"
-            android:layout_marginBottom="25dp"
             android:background="@drawable/plain_text_input_login"
             android:backgroundTint="#F8C0C0"
             android:ems="10"
-            android:hint="Username"
+            android:hint="OTP code"
             android:inputType="textPersonName"
             android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/numberPhone"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.509"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/numberPhone"
-            android:layout_width="250dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/plain_text_input_login"
-            android:backgroundTint="#F8C0C0"
-            android:ems="10"
-            android:hint="Number phone"
-            android:inputType="textPersonName"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/password"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/password"
-            android:layout_width="250dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="25dp"
-            android:background="@drawable/plain_text_input_login"
-            android:backgroundTint="#F8C0C0"
-            android:ems="10"
-            android:hint="Password"
-            android:inputType="textPersonName"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/confirmPassword"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
-
-        <EditText
-            android:id="@+id/confirmPassword"
-            android:layout_width="250dp"
-            android:layout_height="48dp"
-            android:layout_marginBottom="28dp"
-            android:background="@drawable/plain_text_input_login"
-            android:backgroundTint="#F8C0C0"
-            android:ems="10"
-            android:hint="Confirm password"
-            android:inputType="textPersonName"
-            android:textAlignment="center"
-            app:layout_constraintBottom_toTopOf="@+id/nextBtn"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="313dp" />
 
         <Button
             android:id="@+id/nextBtn"
             android:layout_width="159dp"
             android:layout_height="48dp"
-            android:layout_marginBottom="16dp"
+            android:layout_marginBottom="144dp"
             android:background="@drawable/plain_text_input_login"
             android:text="Next"
-            app:backgroundTint="#6B739B"
+            app:backgroundTint="#FF8A54"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.503"
@@ -134,7 +87,26 @@
                 android:layout_height="223dp"
                 android:layout_marginBottom="10dp"
                 android:scaleType="centerCrop"
-                app:srcCompat="@drawable/the_moon" />
+                app:srcCompat="@drawable/dawn" />
         </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Again"
+            tools:layout_editor_absoluteX="249dp"
+            tools:layout_editor_absoluteY="364dp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="15dp"
+            android:layout_height="18dp"
+            android:alpha="0.6"
+            app:srcCompat="@drawable/againicon"
+            tools:layout_editor_absoluteX="234dp"
+            tools:layout_editor_absoluteY="365dp" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

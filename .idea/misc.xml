@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/brownbtn.xml" value="0.184" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/card_rounded.xml" value="0.183" />
         <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/corner_top_image.xml" value="0.184" />
         <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/login_background.xml" value="0.184" />
         <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/picture_intro.xml" value="0.183" />
@@ -12,7 +13,9 @@
         <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/drawable/sign_in_button.xml" value="0.184" />
         <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_intro.xml" value="0.22" />
         <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_login.xml" value="0.3333333333333333" />
-        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_register.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_register.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_success.xml" value="0.22" />
+        <entry key="..\:/Users/TGDD/AndroidStudioProjects/Docusafe/app/src/main/res/layout/activity_validation.xml" value="0.22" />
       </map>
     </option>
   </component>
