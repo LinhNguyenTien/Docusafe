@@ -8,28 +8,29 @@
     tools:context=".LoginActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="296dp"
-        android:layout_height="611dp"
+        android:layout_width="320dp"
+        android:layout_height="600dp"
         android:background="@drawable/login_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
             android:id="@+id/registerLinking"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
+            android:layout_marginStart="3dp"
             android:layout_marginBottom="24dp"
             android:text="Register"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.786"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textview2" />
 
         <TextView
-            android:id="@+id/forgetPasswordBtn2"
+            android:id="@+id/textview2"
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:layout_marginBottom="24dp"
@@ -68,40 +69,41 @@
             android:id="@+id/usernameInput"
             android:layout_width="214dp"
             android:layout_height="50dp"
+            android:layout_marginBottom="28dp"
             android:background="@drawable/plain_text_input_login"
             android:backgroundTint="#FFF"
             android:ems="10"
             android:hint="Your username"
             android:inputType="textPersonName"
             android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/passwordInput"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="324dp" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
             android:id="@+id/passwordInput"
             android:layout_width="214dp"
             android:layout_height="50dp"
-            android:layout_marginTop="28dp"
+            android:layout_marginBottom="60dp"
             android:background="@drawable/plain_text_input_login"
             android:backgroundTint="#FFF"
             android:ems="10"
             android:hint="Your password"
             android:inputType="textPersonName"
             android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/signInBtn"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/usernameInput" />
+            app:layout_constraintStart_toStartOf="parent" />
 
         <TextView
             android:id="@+id/forgetPasswordBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="4dp"
             android:alpha="0.8"
             android:text="Forget your password?"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.267"
+            app:layout_constraintHorizontal_bias="0.299"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/passwordInput" />
 
