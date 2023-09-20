@@ -16,6 +16,7 @@
         android:fontFamily="@font/inria_serif_light"
         android:text="Docusafe"
         android:textAlignment="center"
+        android:textColor="#000"
         android:textSize="36sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"

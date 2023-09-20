@@ -2,16 +2,18 @@ package com.example.docusafe;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
 public class LoginActivity extends AppCompatActivity {
-    private TextView usernameTV;
-    private TextView passwordTV;
+    private EditText usernameET;
+    private EditText passwordET;
     private TextView forgotTV;
     private Button signInBtn;
     private TextView registerTV;
@@ -22,8 +24,8 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         //Connect to views
-        usernameTV = findViewById(R.id.usernameInput);
-        passwordTV = findViewById(R.id.passwordInput);
+        usernameET = findViewById(R.id.usernameInput);
+        passwordET = findViewById(R.id.passwordInput);
         forgotTV = findViewById(R.id.forgetPasswordBtn);
         signInBtn = findViewById(R.id.signInBtn);
         registerTV = findViewById(R.id.registerLinking);
@@ -32,7 +34,7 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //if username and password is correct
-                //then login the main interface
+                startActivity(new Intent(LoginActivity.this, MainActivity.class));
                 //else create an error toast
             }
         });
